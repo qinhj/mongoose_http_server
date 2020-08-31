@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\openssl">
+      <UniqueIdentifier>{90d44197-adf0-4cdf-a26f-79877163a600}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\server.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mongoose.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\extinc\openssl\aes.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\asn1.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\asn1_mac.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\asn1t.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\bio.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\blowfish.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\bn.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\buffer.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\camellia.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\cast.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\cmac.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\cms.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\comp.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\conf.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\conf_api.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\crypto.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\des.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\des_old.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\dh.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\dsa.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\dso.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\dtls1.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\e_os2.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ebcdic.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ec.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ecdh.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ecdsa.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\engine.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\err.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\evp.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\hmac.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\idea.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\krb5_asn.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\kssl.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\lhash.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\md4.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\md5.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\mdc2.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\modes.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\obj_mac.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\objects.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ocsp.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\opensslconf.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\opensslv.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ossl_typ.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\pem.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\pem2.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\pkcs7.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\pkcs12.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\pqueue.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\rand.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\rc2.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\rc4.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ripemd.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\rsa.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\safestack.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\seed.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\sha.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\srp.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\srtp.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ssl.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ssl2.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ssl3.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ssl23.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\stack.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\symhacks.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\tls1.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ts.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\txt_db.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ui.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\ui_compat.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\whrlpool.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\x509.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\x509_vfy.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extinc\openssl\x509v3.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mongoose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_endpoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_upload.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

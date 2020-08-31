@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "http_server", "http_server.vcxproj", "{361EDE3F-2E65-4FD8-B03D-E96F76D74350}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "https_server", "https_server.vcxproj", "{E0F2863F-92EE-4B0B-91A2-E30AF1EE5002}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo.cgi", "demo.cgi.vcxproj", "{0CB659A2-7C51-41E3-A9A5-0EC240637DFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{361EDE3F-2E65-4FD8-B03D-E96F76D74350}.Debug|Win32.ActiveCfg = Debug|Win32
+		{361EDE3F-2E65-4FD8-B03D-E96F76D74350}.Debug|Win32.Build.0 = Debug|Win32
+		{361EDE3F-2E65-4FD8-B03D-E96F76D74350}.Release|Win32.ActiveCfg = Release|Win32
+		{361EDE3F-2E65-4FD8-B03D-E96F76D74350}.Release|Win32.Build.0 = Release|Win32
+		{E0F2863F-92EE-4B0B-91A2-E30AF1EE5002}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0F2863F-92EE-4B0B-91A2-E30AF1EE5002}.Debug|Win32.Build.0 = Debug|Win32
+		{E0F2863F-92EE-4B0B-91A2-E30AF1EE5002}.Release|Win32.ActiveCfg = Release|Win32
+		{E0F2863F-92EE-4B0B-91A2-E30AF1EE5002}.Release|Win32.Build.0 = Release|Win32
+		{0CB659A2-7C51-41E3-A9A5-0EC240637DFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CB659A2-7C51-41E3-A9A5-0EC240637DFD}.Debug|Win32.Build.0 = Debug|Win32
+		{0CB659A2-7C51-41E3-A9A5-0EC240637DFD}.Release|Win32.ActiveCfg = Release|Win32
+		{0CB659A2-7C51-41E3-A9A5-0EC240637DFD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
