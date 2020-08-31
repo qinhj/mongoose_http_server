@@ -2,14 +2,13 @@
 
 ## Quick Start ##
 ```
+## linux
 $ cp config.rc.sample config.rc
 $ vi config.rc
 $ make
-```
-
-## Ext Dependency ##
-```
-openssl
+## windows
+> copy data msvc
+> ...
 ```
 
 ## Quick Test ##
@@ -66,6 +65,14 @@ $ curl -v localhost:8888/demo.cgi?name=qinhj\&age=31 -d "post request" 2>/dev/nu
 hello
 ```
 
+## Toolkit Test ##
+```
+## linux
+$ ./scripts/toolkit.sh
+## windows (todo)
+$ ./scripts/toolkit.bat
+```
+
 ## Appendix ##
 ```
 0. mongoose
@@ -76,7 +83,7 @@ captured by http server, which means cgi won't be called.
 windows: ^
 linux:   \
 
-2. http get  env for cgi
+2. http get env for cgi
 REQUEST_METHOD
 QUERY_STRING
 
