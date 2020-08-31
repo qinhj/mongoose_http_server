@@ -1,0 +1,20 @@
+## windows
+Release
+Debug
+x64
+
+## linux
+*.o
+*.d
+*.s
+*.i
+
+*~
+temp
+
+/http*_server
+*.cgi
+*.gz
+*.exe
+*.bak
+*.rc

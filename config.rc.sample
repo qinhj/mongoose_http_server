@@ -1,0 +1,4 @@
+export CROSS_TOOL=
+export SYSROOT=
+export MODE=debug
+export ENABLE_INDEX=
